@@ -4,8 +4,8 @@
    Реализовать вывод данных о пользователе одной строкой.       '''
 
 
-def data_user(name, surname, old, city, email_u, phone):
-    print(f'{name} {surname} {old} года рождения,'
+def data_user(name, surname, old, city, email_u, phone):#(**kwargs)
+    print(f'{name} {surname} {old} года рождения,'       #rpint(kwargs)
           f'Проживает в {city},email: {email_u},Телефон {phone}')
 
 
