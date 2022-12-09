@@ -5,7 +5,7 @@
 
 
 def data_user(name, surname, old, city, email_u, phone):#(**kwargs)
-    print(f'{name} {surname} {old} года рождения,'       #rpint(kwargs)
+    print(f'{name} {surname} {old} года рождения,'       #print(kwargs)
           f'Проживает в {city},email: {email_u},Телефон {phone}')
 
 
