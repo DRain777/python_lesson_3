@@ -3,12 +3,12 @@
  оформить в виде списка. Для формирования списка использовать генератор.
 Пример исходного списка: [300, 2, 12, 44, 1, 1, 4, 10, 7, 1, 78, 123, 55].
 Результат: [12, 44, 4, 10, 78, 123].'''
-primary_list = [300, 2, 12, 44, 1, 1, 4, 10, 7, 1, 78, 123, 55]
-res_list_1 = []
-for el in range(1, len(primary_list)):
-    if primary_list[el] > primary_list[el - 1]:
-        res_list_1.append(primary_list[el])
+my_lst = [300, 2, 12, 44, 1, 1, 4, 10, 7, 1, 78, 123, 55]
+res_lst = []
+for el in range(1, len(my_lst)):
+    if my_lst[el] > my_lst[el - 1]:
+        res_lst.append(my_lst[el])
 
-print(res_list_1)
+print(res_lst)
 
 
